@@ -1,0 +1,1068 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Pest Control in Al Jubail Island: Protecting Homes and Properties</title>
+  <meta name="description" content="Practical pest control guidance for homes and businesses in Al Jubail Island, including prevention, common pests, inspections, treatment, and property protection.">
+
+  <style>
+    :root{
+      --ink:#202124;
+      --deep:#261c35;
+      --purple:#513b73;
+      --lavender:#eee8f5;
+      --rose:#b86b78;
+      --rose-soft:#f5e5e8;
+      --cream:#fbf8f3;
+      --white:#ffffff;
+      --gray:#6c6972;
+      --line:#e5e0e6;
+      --shadow:0 18px 55px rgba(38,28,53,.10);
+    }
+
+    *{
+      box-sizing:border-box;
+      margin:0;
+      padding:0;
+    }
+
+    html{
+      scroll-behavior:smooth;
+    }
+
+    body{
+      background:var(--cream);
+      color:var(--ink);
+      font-family:Inter,Arial,Helvetica,sans-serif;
+      line-height:1.8;
+      overflow-x:hidden;
+    }
+
+    img{
+      max-width:100%;
+      display:block;
+    }
+
+    a{
+      color:inherit;
+    }
+
+    /* ==============================
+       HEADER
+    ============================== */
+
+    .header{
+      background:var(--white);
+      border-bottom:1px solid var(--line);
+    }
+
+    .header-inner{
+      max-width:1240px;
+      margin:auto;
+      min-height:86px;
+      padding:0 28px;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:25px;
+    }
+
+    .logo img{
+      width:260px;
+      height:auto;
+    }
+
+    .header-location{
+      color:var(--purple);
+      font-size:12px;
+      font-weight:800;
+      letter-spacing:.14em;
+      text-transform:uppercase;
+    }
+
+    /* ==============================
+       HERO
+    ============================== */
+
+    .hero{
+      background:var(--cream);
+      position:relative;
+      overflow:hidden;
+    }
+
+    .hero-inner{
+      max-width:1240px;
+      margin:auto;
+      padding:88px 28px 105px;
+      position:relative;
+    }
+
+    .hero-number{
+      position:absolute;
+      right:25px;
+      top:35px;
+      font-size:clamp(7rem,17vw,13rem);
+      line-height:1;
+      font-weight:900;
+      color:rgba(81,59,115,.055);
+      pointer-events:none;
+    }
+
+    .eyebrow{
+      display:flex;
+      align-items:center;
+      gap:12px;
+      color:var(--rose);
+      font-size:12px;
+      font-weight:900;
+      letter-spacing:.17em;
+      text-transform:uppercase;
+      margin-bottom:22px;
+    }
+
+    .eyebrow::before{
+      content:"";
+      width:42px;
+      height:2px;
+      background:var(--rose);
+    }
+
+    h1{
+      max-width:950px;
+      color:var(--deep);
+      font-size:clamp(2.5rem,5vw,4.45rem);
+      line-height:1.06;
+      letter-spacing:-.045em;
+      font-weight:900;
+      position:relative;
+      z-index:2;
+    }
+
+    .hero-bottom{
+      max-width:760px;
+      margin-top:28px;
+      color:var(--gray);
+      font-size:1.08rem;
+      line-height:1.85;
+      position:relative;
+      z-index:2;
+    }
+
+    /* ==============================
+       FEATURE VISUAL
+    ============================== */
+
+    .visual-wrap{
+      max-width:1240px;
+      margin:-40px auto 0;
+      padding:0 28px;
+      position:relative;
+      z-index:5;
+    }
+
+    .visual-main{
+      background:var(--white);
+      padding:10px;
+      border-radius:30px;
+      box-shadow:var(--shadow);
+    }
+
+    .visual-main img{
+      width:100%;
+      height:500px;
+      object-fit:cover;
+      border-radius:22px;
+    }
+
+    /* ==============================
+       ARTICLE
+    ============================== */
+
+    .content{
+      max-width:940px;
+      margin:auto;
+      padding:80px 25px 100px;
+    }
+
+    .article{
+      background:var(--white);
+      border-radius:30px;
+      padding:58px clamp(28px,6vw,76px);
+      box-shadow:0 12px 45px rgba(38,28,53,.055);
+    }
+
+    .article > p:first-child{
+      font-size:1.13rem;
+      line-height:1.95;
+    }
+
+    .article p{
+      color:#49464d;
+      font-size:1.02rem;
+      line-height:1.92;
+      margin-bottom:22px;
+    }
+
+    .article a{
+      color:var(--purple);
+      font-weight:800;
+      text-decoration-thickness:1.5px;
+      text-underline-offset:4px;
+    }
+
+    .article strong{
+      color:var(--deep);
+      font-weight:850;
+    }
+
+    /* HEADINGS */
+
+    .article h2{
+      color:var(--deep);
+      font-size:clamp(1.75rem,3.3vw,2.45rem);
+      line-height:1.18;
+      letter-spacing:-.03em;
+      margin:70px 0 25px;
+      padding-bottom:17px;
+      border-bottom:1px solid var(--line);
+      position:relative;
+    }
+
+    .article h2:first-of-type{
+      margin-top:20px;
+    }
+
+    .article h2::after{
+      content:"";
+      position:absolute;
+      bottom:-2px;
+      left:0;
+      width:58px;
+      height:4px;
+      background:var(--rose);
+    }
+
+    .article h3{
+      color:var(--purple);
+      font-size:clamp(1.18rem,2vw,1.43rem);
+      line-height:1.4;
+      margin:38px 0 12px;
+      font-weight:850;
+    }
+
+    /* COMMON PEST NUMBERED SECTIONS */
+
+    .article h2 + h3{
+      margin-top:34px;
+    }
+
+    .article h2 + h3::first-letter{
+      color:var(--rose);
+    }
+
+    /* LISTS */
+
+    .article ul{
+      list-style:none;
+      margin:17px 0 30px;
+      padding:0;
+    }
+
+    .article ul li{
+      position:relative;
+      padding:9px 0 9px 31px;
+      color:#49464d;
+      line-height:1.75;
+    }
+
+    .article ul li::before{
+      content:"";
+      position:absolute;
+      left:2px;
+      top:18px;
+      width:8px;
+      height:8px;
+      border-radius:50%;
+      background:var(--rose);
+      box-shadow:0 0 0 5px var(--rose-soft);
+    }
+
+    /* ==============================
+       VISUAL BREAK
+    ============================== */
+
+    .article-image{
+      margin:45px 0 50px;
+      padding:8px;
+      background:var(--lavender);
+      border-radius:25px;
+    }
+
+    .article-image img{
+      width:100%;
+      height:360px;
+      object-fit:cover;
+      border-radius:18px;
+    }
+
+    /* ==============================
+       PREVENTION STEPS
+    ============================== */
+
+    .prevention-grid{
+      margin:30px 0 10px;
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:15px;
+    }
+
+    .prevention-item{
+      background:var(--lavender);
+      border:1px solid #e4dceb;
+      border-radius:18px;
+      padding:21px;
+    }
+
+    .prevention-number{
+      display:block;
+      color:var(--rose);
+      font-size:12px;
+      font-weight:900;
+      letter-spacing:.1em;
+      margin-bottom:6px;
+    }
+
+    .prevention-title{
+      color:var(--deep);
+      font-size:1rem;
+      font-weight:850;
+      margin-bottom:6px;
+    }
+
+    /* ==============================
+       FINAL SECTION
+    ============================== */
+
+    .final-highlight{
+      margin-top:38px;
+      padding:30px;
+      border-left:5px solid var(--rose);
+      background:var(--rose-soft);
+      border-radius:0 18px 18px 0;
+    }
+
+    .final-highlight p{
+      margin-bottom:0;
+      color:var(--deep);
+    }
+
+    /* ==============================
+       FOOTER CONTACT
+    ============================== */
+
+    .footer{
+      background:var(--deep);
+      color:#fff;
+      margin-top:0;
+    }
+
+    .footer-top{
+      max-width:1240px;
+      margin:auto;
+      padding:68px 28px 55px;
+    }
+
+    .footer-heading{
+      max-width:700px;
+      margin-bottom:42px;
+    }
+
+    .footer-heading .label{
+      color:#e0a1aa;
+      font-size:11px;
+      font-weight:900;
+      letter-spacing:.17em;
+      text-transform:uppercase;
+      margin-bottom:12px;
+    }
+
+    .footer-heading h2{
+      color:#fff;
+      font-size:clamp(1.8rem,4vw,2.7rem);
+      line-height:1.2;
+      letter-spacing:-.03em;
+    }
+
+    .footer-grid{
+      display:grid;
+      grid-template-columns:1.3fr 1fr 1fr;
+      gap:20px;
+    }
+
+    .footer-card{
+      background:rgba(255,255,255,.055);
+      border:1px solid rgba(255,255,255,.09);
+      border-radius:20px;
+      padding:25px;
+    }
+
+    .footer-card-icon{
+      width:43px;
+      height:43px;
+      padding:9px;
+      background:#fff;
+      border-radius:12px;
+      object-fit:contain;
+      margin-bottom:18px;
+    }
+
+    .footer-card h3{
+      color:#e0a1aa;
+      font-size:11px;
+      font-weight:900;
+      letter-spacing:.13em;
+      text-transform:uppercase;
+      margin-bottom:9px;
+    }
+
+    .footer-card p{
+      color:rgba(255,255,255,.78);
+      font-size:.91rem;
+      line-height:1.7;
+    }
+
+    .footer-card a{
+      display:block;
+      color:rgba(255,255,255,.82);
+      text-decoration:none;
+      margin-bottom:3px;
+    }
+
+    .footer-card a:hover{
+      color:#e0a1aa;
+    }
+
+    .footer-bottom{
+      border-top:1px solid rgba(255,255,255,.09);
+      max-width:1240px;
+      margin:auto;
+      padding:27px 28px;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      gap:20px;
+    }
+
+    .footer-logo img{
+      width:220px;
+      filter:brightness(0) invert(1);
+    }
+
+    .copyright{
+      color:rgba(255,255,255,.45);
+      font-size:.78rem;
+      text-align:right;
+    }
+
+    /* ==============================
+       RESPONSIVE
+    ============================== */
+
+    @media(max-width:800px){
+
+      .header-inner{
+        min-height:74px;
+        padding:0 19px;
+      }
+
+      .logo img{
+        width:210px;
+      }
+
+      .header-location{
+        display:none;
+      }
+
+      .hero-inner{
+        padding:62px 20px 78px;
+      }
+
+      .hero-number{
+        right:-25px;
+        top:30px;
+        font-size:8rem;
+      }
+
+      h1{
+        font-size:clamp(2.3rem,9vw,3.25rem);
+      }
+
+      .hero-bottom{
+        font-size:.98rem;
+      }
+
+      .visual-wrap{
+        padding:0 16px;
+        margin-top:-28px;
+      }
+
+      .visual-main{
+        padding:7px;
+        border-radius:22px;
+      }
+
+      .visual-main img{
+        height:300px;
+        border-radius:16px;
+      }
+
+      .content{
+        padding:48px 14px 70px;
+      }
+
+      .article{
+        padding:38px 22px;
+        border-radius:22px;
+      }
+
+      .article p{
+        font-size:.97rem;
+        line-height:1.84;
+      }
+
+      .article > p:first-child{
+        font-size:1rem;
+      }
+
+      .prevention-grid{
+        grid-template-columns:1fr;
+      }
+
+      .article-image img{
+        height:260px;
+      }
+
+      .footer-grid{
+        grid-template-columns:1fr;
+      }
+
+      .footer-top{
+        padding:52px 20px 40px;
+      }
+
+      .footer-bottom{
+        padding:25px 20px;
+        flex-direction:column;
+        align-items:flex-start;
+      }
+
+      .copyright{
+        text-align:left;
+      }
+    }
+
+    @media(max-width:480px){
+
+      .hero-inner{
+        padding:52px 18px 65px;
+      }
+
+      .eyebrow{
+        font-size:10px;
+        letter-spacing:.13em;
+      }
+
+      h1{
+        font-size:2.25rem;
+      }
+
+      .visual-main img{
+        height:225px;
+      }
+
+      .content{
+        padding-left:11px;
+        padding-right:11px;
+      }
+
+      .article{
+        padding:31px 19px;
+      }
+
+      .article h2{
+        font-size:1.62rem;
+        margin-top:50px;
+      }
+
+      .article h3{
+        font-size:1.15rem;
+      }
+
+      .article p{
+        font-size:.94rem;
+      }
+
+      .article-image{
+        padding:6px;
+      }
+
+      .article-image img{
+        height:220px;
+      }
+
+      .final-highlight{
+        padding:23px;
+      }
+
+      .footer-card{
+        padding:21px;
+      }
+    }
+
+    @media(prefers-reduced-motion:no-preference){
+
+      .hero-inner{
+        animation:heroReveal .7s ease both;
+      }
+
+      @keyframes heroReveal{
+        from{
+          opacity:0;
+          transform:translateY(15px);
+        }
+        to{
+          opacity:1;
+          transform:translateY(0);
+        }
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header class="header">
+
+  <div class="header-inner">
+
+    <a class="logo" href="https://brpestcontrol.ae/" aria-label="BR Pest Control">
+      <img
+        src="https://brpestcontrol.ae/wp-content/uploads/2023/09/cropped-BR-2-260x60.png"
+        alt="BR Pest Control"
+      >
+    </a>
+
+    <div class="header-location">
+      Al Jubail Island
+    </div>
+
+  </div>
+
+</header>
+
+
+<section class="hero">
+
+  <div class="hero-number">01</div>
+
+  <div class="hero-inner">
+
+    <div class="eyebrow">
+      Property Protection Guide
+    </div>
+
+    <h1>
+      Pest Control in Al Jubail Island: Protecting Homes and Properties
+    </h1>
+
+    <p class="hero-bottom">
+      Keeping a property clean does not always prevent pests from appearing. Early identification and targeted pest management can help prevent a small pest issue from becoming a recurring infestation.
+    </p>
+
+  </div>
+
+</section>
+
+
+<section class="visual-wrap">
+
+  <div class="visual-main">
+
+    <img
+      src="https://brpestcontrol.ae/wp-content/uploads/2025/02/Free-Environment-in-Al-Jubail-Island-1024x682.webp"
+      alt="Al Jubail Island environment and properties"
+      loading="eager"
+    >
+
+  </div>
+
+</section>
+
+
+<main class="content">
+
+  <article class="article">
+
+
+    <p>
+      Keeping a property clean does not always prevent pests from appearing. Cockroaches can enter through small gaps, ants can follow food trails, rodents can use concealed access points, and termites can remain hidden around wooden structures for long periods. For residents and businesses in <a href="https://brpestcontrol.ae/al-jubail-island/"><strong>Al Jubail Island</strong></a>, early identification and targeted pest management can help prevent a small pest issue from becoming a recurring infestation.
+    </p>
+
+
+    <h2>Why Pest Control Matters in Al Jubail Island</h2>
+
+    <p>
+      Residential villas, apartments, offices, restaurants, landscaped areas, and other properties can provide pests with food, water, shelter, and entry routes. A small leak under a sink, uncovered food, outdoor standing water, or an unsealed opening around a pipe may be enough to attract unwanted pests.
+    </p>
+
+    <p>
+      The important point is that different pests behave differently. Cockroaches require a different control strategy from termites, while bed bugs and rodents require their own inspection and treatment approach.
+    </p>
+
+    <p>
+      Effective pest management therefore starts with <strong>identifying the pest and understanding why it is present</strong>.
+    </p>
+
+
+    <h2>Common Pest Problems</h2>
+
+
+    <h3>Cockroaches</h3>
+
+    <p>
+      Cockroaches often become noticeable in kitchens, bathrooms, storage spaces, and areas around appliances. They can hide inside cracks, cabinets, drains, and other dark locations before appearing at night.
+    </p>
+
+    <p>
+      A few visible cockroaches may indicate activity in less accessible areas. Cleaning food spills, storing food properly, controlling moisture, and sealing potential entry points can help, but an established infestation may require professional treatment.
+    </p>
+
+
+    <h3>Ants</h3>
+
+    <p>
+      Ants commonly enter properties while searching for food or moisture. Once they discover a reliable food source, they can create a visible trail between the source and their nesting area.
+    </p>
+
+    <p>
+      Removing crumbs, cleaning spills, and keeping food sealed are useful first steps. Persistent ant activity should also prompt an inspection for entry points and nearby nesting areas.
+    </p>
+
+
+    <h3>Bed Bugs</h3>
+
+    <p>
+      Bed bugs are difficult to detect because they can hide in mattresses, bed frames, furniture joints, upholstery, and small cracks.
+    </p>
+
+    <p>
+      Possible signs include small dark marks on bedding, shed skins, eggs, live insects, or unexplained bites after sleeping. Because bed bugs can spread between rooms, early inspection is preferable to repeatedly treating only the areas where insects are visible.
+    </p>
+
+
+    <h3>Termites</h3>
+
+    <p>
+      Termites deserve particular attention because damage may develop behind the surface before it becomes obvious.
+    </p>
+
+    <p>
+      Wooden doors, cabinets, frames, furniture, and other wood-containing structures can be vulnerable. Warning signs may include damaged wood, mud tubes, discarded wings, or changes in wooden surfaces.
+    </p>
+
+    <p>
+      For new construction and existing properties, termite management can involve different approaches. A professional assessment can determine which treatment is appropriate for the building and the level of activity.
+    </p>
+
+
+    <h3>Rodents</h3>
+
+    <p>
+      Rats and mice can cause more than an unpleasant sight. They may contaminate food, damage packaging, chew cables, and create hygiene concerns.
+    </p>
+
+    <p>
+      Watch for droppings, gnaw marks, damaged food packages, scratching sounds, and unusual smells. Effective rodent management should combine population control with measures that reduce access to food, water, and shelter.
+    </p>
+
+
+    <h3>Mosquitoes</h3>
+
+    <p>
+      Mosquito activity can increase when standing water is available. Plant containers, drains, outdoor equipment, and other areas that collect water should be checked regularly.
+    </p>
+
+    <p>
+      Reducing breeding sites is an important part of mosquito prevention. Where activity remains high, professional treatment can help address both adult mosquitoes and areas supporting their development.
+    </p>
+
+
+    <div class="article-image">
+
+      <img
+        src="https://brpestcontrol.ae/wp-content/uploads/2025/02/Every-Corner-of-Al-Jubail-Island.webp"
+        alt="Every corner of Al Jubail Island"
+        loading="lazy"
+      >
+
+    </div>
+
+
+    <h2>What a Professional Pest Inspection Should Check</h2>
+
+    <p>
+      A good pest-control service should look beyond the obvious signs of infestation.
+    </p>
+
+    <p>
+      An inspection may consider:
+    </p>
+
+    <ul>
+      <li><strong>Where pests are being seen</strong></li>
+      <li><strong>Potential entry points</strong></li>
+      <li><strong>Food and water sources</strong></li>
+      <li><strong>Cracks and concealed harbourage areas</strong></li>
+      <li><strong>Drainage and moisture conditions</strong></li>
+      <li><strong>Storage and clutter</strong></li>
+      <li><strong>Outdoor areas around the property</strong></li>
+      <li><strong>Signs of previous pest activity</strong></li>
+    </ul>
+
+    <p>
+      This information helps determine whether the property needs a one-time treatment, follow-up visits, or an ongoing pest-management plan.
+    </p>
+
+
+    <h2>Residential Pest Control for Villas and Apartments</h2>
+
+    <p>
+      Homes can experience pest problems for many different reasons. Kitchens and bathrooms are particularly important because they can provide food and moisture, while balconies, gardens, storage rooms, and utility areas may create additional hiding or entry points.
+    </p>
+
+    <p>
+      For families, preparation before treatment is also important. Food should generally be stored appropriately, accessible surfaces cleared where required, and any instructions provided by the pest-control technician followed carefully.
+    </p>
+
+    <p>
+      After treatment, maintaining good sanitation and correcting conditions that contributed to the infestation can reduce the likelihood of pests returning.
+    </p>
+
+
+    <h2>Pest Management for Businesses</h2>
+
+    <p>
+      Commercial properties require a more structured approach because pest activity can affect employees, customers, food-storage areas, inventory, and day-to-day operations.
+    </p>
+
+    <p>
+      Restaurants, cafés, offices, warehouses, retail spaces, and other businesses may benefit from routine inspections and preventive measures rather than waiting until a visible infestation becomes serious.
+    </p>
+
+    <p>
+      A commercial pest-management plan can focus on high-risk areas, sanitation practices, access points, waste handling, and recurring pest activity.
+    </p>
+
+
+    <h2>How to Reduce Pest Activity Around Your Property</h2>
+
+    <p>
+      Several simple measures can make a property less attractive to pests:
+    </p>
+
+
+    <div class="prevention-grid">
+
+      <div class="prevention-item">
+        <span class="prevention-number">01</span>
+        <div class="prevention-title">Store Food Properly</div>
+        <p>
+          Keep food in sealed containers and avoid leaving leftovers or uncovered ingredients exposed for extended periods.
+        </p>
+      </div>
+
+      <div class="prevention-item">
+        <span class="prevention-number">02</span>
+        <div class="prevention-title">Remove Waste Regularly</div>
+        <p>
+          Use closed waste containers and clean areas around bins. Food waste can quickly attract insects and rodents.
+        </p>
+      </div>
+
+      <div class="prevention-item">
+        <span class="prevention-number">03</span>
+        <div class="prevention-title">Fix Leaks</div>
+        <p>
+          Check under sinks, around bathrooms, kitchens, outdoor taps, and other areas where moisture may accumulate.
+        </p>
+      </div>
+
+      <div class="prevention-item">
+        <span class="prevention-number">04</span>
+        <div class="prevention-title">Seal Gaps</div>
+        <p>
+          Inspect doors, windows, pipes, drains, vents, and utility openings for gaps that could provide pest access.
+        </p>
+      </div>
+
+      <div class="prevention-item">
+        <span class="prevention-number">05</span>
+        <div class="prevention-title">Reduce Clutter</div>
+        <p>
+          Unused cardboard, boxes, furniture, and crowded storage areas can provide hiding places for insects and rodents.
+        </p>
+      </div>
+
+      <div class="prevention-item">
+        <span class="prevention-number">06</span>
+        <div class="prevention-title">Check Outdoor Areas</div>
+        <p>
+          Remove unnecessary standing water and keep gardens, patios, and storage areas reasonably maintained.
+        </p>
+      </div>
+
+    </div>
+
+
+    <h2>When Should You Call a Pest Control Professional?</h2>
+
+    <p>
+      Professional assistance is worth considering when pest activity keeps returning, spreads to multiple rooms, or becomes difficult to identify or control.
+    </p>
+
+    <p>
+      Some situations should receive particular attention, including suspected termites, repeated cockroach activity, established bed bugs, rodent signs, large ant infestations, or wasp and mosquito problems around frequently used outdoor spaces.
+    </p>
+
+    <p>
+      Trying different household sprays without finding the source can sometimes lead to repeated short-term results. A professional inspection can help identify the underlying conditions and select a treatment strategy based on the actual pest problem.
+    </p>
+
+
+    <h2>Choosing a Pest Control Provider</h2>
+
+    <p>
+      When comparing pest-control companies, do not judge a service only by its advertised price. Ask what the inspection covers, which treatment approach is appropriate for your pest problem, what preparation is required, and whether follow-up support is available.
+    </p>
+
+    <p>
+      For residential properties, consider the company's experience with villas and apartments. For businesses, ask about commercial pest management and how treatments can be coordinated with normal operations.
+    </p>
+
+    <p>
+      The best approach is one that addresses the <strong>current infestation while also reducing the conditions that allow pests to return</strong>.
+    </p>
+
+
+    <h2>Keep Your Property Protected</h2>
+
+    <p>
+      Pest control is not simply about removing insects or rodents after they appear. Long-term protection combines inspection, targeted treatment, sanitation, moisture management, exclusion, and regular monitoring.
+    </p>
+
+    <div class="final-highlight">
+      <p>
+        For properties on Al Jubail Island, taking action when the first signs appear can make pest problems easier to manage and reduce the risk of a recurring infestation. Whether the issue involves cockroaches in a kitchen, ants around a garden, rodents in storage areas, bed bugs in bedrooms, or termites affecting wooden structures, identifying the cause is the first step toward a lasting solution.
+      </p>
+    </div>
+
+
+  </article>
+
+</main>
+
+
+<footer class="footer">
+
+  <div class="footer-top">
+
+    <div class="footer-heading">
+      <div class="label">BR Pest Control</div>
+      <h2>Protecting homes and properties in Al Jubail Island.</h2>
+    </div>
+
+
+    <div class="footer-grid">
+
+      <div class="footer-card">
+
+        <img
+          class="footer-card-icon"
+          src="https://brpestcontrol.ae/wp-content/uploads/2024/12/map-pointer.png"
+          alt="BR Pest Control location"
+        >
+
+        <h3>Head Office</h3>
+
+        <p>
+          Musaffah - M-32/2 - Abu Dhabi - United Arab Emirates
+        </p>
+
+      </div>
+
+
+      <div class="footer-card">
+
+        <img
+          class="footer-card-icon"
+          src="https://brpestcontrol.ae/wp-content/uploads/2024/12/phone-call.png"
+          alt="BR Pest Control phone"
+        >
+
+        <h3>Call Us</h3>
+
+        <p>
+          <a href="tel:+971567512795">+971 56 7512795</a>
+          <a href="tel:+97125502376">+971 2 5502376</a>
+        </p>
+
+      </div>
+
+
+      <div class="footer-card">
+
+        <img
+          class="footer-card-icon"
+          src="https://brpestcontrol.ae/wp-content/uploads/2024/12/mail.png"
+          alt="BR Pest Control email"
+        >
+
+        <h3>Email Us</h3>
+
+        <p>
+          <a href="mailto:info@brpestcontrol.ae">info@brpestcontrol.ae</a>
+          <a href="mailto:hr@brpestcontrol.ae">hr@brpestcontrol.ae</a>
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <div class="footer-bottom">
+
+    <a class="footer-logo" href="https://brpestcontrol.ae/" aria-label="BR Pest Control">
+      <img
+        src="https://brpestcontrol.ae/wp-content/uploads/2023/09/cropped-BR-2-260x60.png"
+        alt="BR Pest Control"
+      >
+    </a>
+
+    <div class="copyright">
+      Pest Control in Al Jubail Island
+    </div>
+
+  </div>
+
+</footer>
+
+</body>
+</html>
+```
+
+
